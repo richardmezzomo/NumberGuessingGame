@@ -58,36 +58,26 @@ form {
   display: flex;
 }
 
-input {
+input, button {
   font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 1.6rem;
+  border: none;
+  padding: 1.6rem;
   line-height: 2.1rem;
+}
 
+input {
+  font-weight: 400;
   color: #34355B;
-
   background: #DCE2E9;
   border-radius: .4rem 0rem 0rem .4rem;
-  padding: 1.6rem;
   width: 7.0rem;
-
-  border: none;
 }
 
 button {
   background: #7879F1;
   border-radius: 0px 4px 4px 0px;
-  font-family: 'DM Sans';
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 2.1rem;
-
-  color: #FFFFFF;
-
-  padding: 1.6rem;
-
-  border: none;
+  color: #FFFFFF; 
 }
 
 button:hover {
