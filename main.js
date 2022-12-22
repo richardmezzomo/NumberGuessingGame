@@ -1,4 +1,9 @@
 function handleClick(event) {
   event.preventDefault()
-console.log('cliquei no botão')
+
+  const inputNumber = document.querySelector('#inputNumber')
+  const randomNumber = Math.floor(Math.random() * 10)
+
+  console.log(inputNumber.value)
+  console.log(randomNumber)
 }
