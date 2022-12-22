@@ -14,18 +14,19 @@
 </head>
 <body> 
   <main>
-    <div class="screen1 hide">
+    <div class="screen1">
       <h1>Guessing Game</h1>
     <p>Guess a number between 0 and 10</p>
     <form>
       <input type="number" id="numberInput">
-      <button type="submit">Guess</button> 
+      <button onclick="handleClick(event)">Guess</button> 
     </form>
     </div>
-    <div class="screen2">
+    <div class="screen2 hide">
       <h2>Got it right in 3 tries!</h2>
       <button type="submit">Play Again</button>
     </div>
   </main>
+  <script src="./main.js"></script>
 </body>
 </html>
