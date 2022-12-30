@@ -24,6 +24,11 @@ function handleTryClick(event) {
 
     document.querySelector('.text-result').innerHTML = `Got it right in ${xAttempts} tries! `
   }
+
+  if (Number(inputNumber.value) < 0 || Number(inputNumber.value) > 10) {
+    alert('Please enter a number from 0 to 10!')
+  } 
+
   inputNumber.value = ""
   xAttempts++ 
 }
@@ -44,3 +49,5 @@ function keydownReset(e) {
     handleResetClick()
   }
 }
+
+
